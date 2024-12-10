@@ -19,7 +19,7 @@ COPY capstone-trial-440104-9d690ddb0c86.json /app/
 ENV GOOGLE_APPLICATION_CREDENTIALS=capstone-trial-440104-9d690ddb0c86.json
 
 # Expose the port that Flask runs on
-EXPOSE 8000
+EXPOSE 8080
 
 # Command to run the Flask app
 CMD ["python", "app.py"]
